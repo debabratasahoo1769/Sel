@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="102839" started-at="2018-03-08T13:28:29Z" finished-at="2018-03-08T13:30:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="102839" started-at="2018-03-08T13:28:29Z" finished-at="2018-03-08T13:30:11Z">
+      <class name="com.amazon.AmazonTest">
+        <test-method status="PASS" signature="TestInit()[pri:0, instance:com.amazon.AmazonTest@4493d195]" name="TestInit" is-config="true" duration-ms="5560" started-at="2018-03-08T13:28:29Z" finished-at="2018-03-08T13:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInit -->
+        <test-method status="PASS" signature="TestScenario_01()[pri:1, instance:com.amazon.AmazonTest@4493d195]" name="TestScenario_01" duration-ms="89102" started-at="2018-03-08T13:28:34Z" description="searches for pendrive with filters. Brand: Sandisk, Price Range: Rs. 300 – Rs. 1000, Avg Customer Review: 4 and up." finished-at="2018-03-08T13:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario_01 -->
+        <test-method status="PASS" signature="TestScenario_02()[pri:2, instance:com.amazon.AmazonTest@4493d195]" name="TestScenario_02" duration-ms="1683" started-at="2018-03-08T13:30:03Z" description="adds pen drive with the lowest price from the first page of search results of above test case." finished-at="2018-03-08T13:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario_02 -->
+        <test-method status="PASS" signature="TestScenario_03()[pri:3, instance:com.amazon.AmazonTest@4493d195]" name="TestScenario_03" duration-ms="6465" started-at="2018-03-08T13:30:05Z" description="verify that user is prompted to Login when the user tries to check out the product added in above test case." finished-at="2018-03-08T13:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario_03 -->
+      </class> <!-- com.amazon.AmazonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
